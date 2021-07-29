@@ -9,14 +9,16 @@ public class main {
 		UC1 uc1 = new UC1();
 		uc1.validate();
 		// creating object for uc2
-		UC2 uc2=new UC2();
+		UC2 uc2 = new UC2();
 		uc2.validate();
 		// creating object for uc3
-		UC3 uc3=new UC3();
+		UC3 uc3 = new UC3();
 		uc3.validate();
 		// creating object for uc4
-		UC4 uc4=new UC4();
+		UC4 uc4 = new UC4();
 		uc4.validate();
-
+		// creating object for uc5
+		UC5 uc5=new UC5();
+		uc5.validate();
 	}
 }
