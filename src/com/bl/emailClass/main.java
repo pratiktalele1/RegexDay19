@@ -8,6 +8,9 @@ public class main {
 		// creating object for uc1
 		UC1 uc1 = new UC1();
 		uc1.validate();
+		
+		UC2 uc2=new UC2();
+		uc2.validate();
 
 	}
 }
