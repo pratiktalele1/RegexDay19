@@ -11,6 +11,9 @@ public class main {
 		
 		UC2 uc2=new UC2();
 		uc2.validate();
+		
+		UC3 uc3=new UC3();
+		uc3.validate();
 
 	}
 }
