@@ -3,12 +3,12 @@ package com.bl.emailClass;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class UC2 {
-	// validating uc2
+public class UC4 {
+	// validating uc4
 
 	public void validate() {
 		int flag = 0;
-		Pattern pattern = Pattern.compile("^[0-9A-Za-z.]+@bridgelabz");
+		Pattern pattern = Pattern.compile("^abc.[A-Za-z+-_.]+@bridgelabz.co");
 		Matcher matcher = pattern.matcher("abc.xyz@bridgelabz.co.in");
 		while (matcher.find()) {
 			flag = 1;
